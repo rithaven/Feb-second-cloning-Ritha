@@ -3,6 +3,7 @@ import Navbar from '@/components/layout/Navbar'
 import Contact from '@/components/sections/Contact'
 import Events from '@/components/sections/Events'
 import Hero from '@/components/sections/Hero'
+import Quicklinks from '@/components/sections/Quicklinks'
 import Spotlight from '@/components/sections/Spotlight '
 import Head from 'next/head'
 import Image from 'next/image'
@@ -23,6 +24,7 @@ export default function Home() {
      <Spotlight />
      <Events />
      <Contact />
+     <Quicklinks />
     </>
   )
 }
