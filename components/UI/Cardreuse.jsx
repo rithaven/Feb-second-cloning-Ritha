@@ -5,7 +5,7 @@ const Cardreuse = (props) => {
   return (
     <div className="grid space-y-4 border border-black">
       <div className="">
-        <img className="object-cover w-full" src={props.image} alt="" />
+        <img className="object-cover w-full h-56" src={props.image} alt="" />
       </div>
       <div className="p-6 space-y-4">
         <div>

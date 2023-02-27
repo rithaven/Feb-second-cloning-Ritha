@@ -1,5 +1,6 @@
 
 import Navbar from '@/components/layout/Navbar'
+import Events from '@/components/sections/Events'
 import Hero from '@/components/sections/Hero'
 import Spotlight from '@/components/sections/Spotlight '
 import Head from 'next/head'
@@ -19,6 +20,7 @@ export default function Home() {
      <Navbar />
      <Hero />
      <Spotlight />
+     <Events />
     </>
   )
 }
