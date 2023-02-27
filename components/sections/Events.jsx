@@ -1,9 +1,9 @@
 import React from "react";
-import Cardreuse from "../UI/Cardreuse";
+import Eventcard from "../UI/Eventcard";
 
 const Events = () => {
   return (
-    <div className="bg-gray-100">
+    <div className="bg-gray-100 pb-24">
       <div className=" mt-14 max-w-7xl mx-auto">
         <div className="flex justify-between items-center">
           <div className="p-6">
@@ -22,21 +22,21 @@ const Events = () => {
           </p>
         </div>
         <div className="grid grid-cols-3 gap-4 ">
-          <Cardreuse
+          <Eventcard
             image="https://www.aalto.fi/sites/g/files/flghsv161/files/styles/o_914w_ah_n/public/2023-02/solvethesdgs_7.png?itok=3zTx6Lu6"
             link="Shrinking from the heat"
             description="Reactive fabrics respond to changes in temperature"
             due="21.2.2023 | News"
           />
 
-          <Cardreuse
+          <Eventcard
             image="https://www.aalto.fi/sites/g/files/flghsv161/files/styles/o_914w_ah_n/public/2023-02/energy_futures_1920x1080_orange.jpg?itok=5ol6Q-Wo"
             link="Shrinking from the heat"
             description="Reactive fabrics respond to changes in temperature"
             due="21.2.2023 | News"
           />
 
-          <Cardreuse
+          <Eventcard
             image="https://www.aalto.fi/sites/g/files/flghsv161/files/styles/2_3_1380w_600h_n/public/2023-01/SSD2023_hero_image_1920x1200px_150dpi_2.png?h=3bf3b255&itok=tP6_uIIV"
             link="Shrinking from the heat"
             description="Reactive fabrics respond to changes in temperature"

@@ -1,5 +1,6 @@
 
 import Navbar from '@/components/layout/Navbar'
+import Contact from '@/components/sections/Contact'
 import Events from '@/components/sections/Events'
 import Hero from '@/components/sections/Hero'
 import Spotlight from '@/components/sections/Spotlight '
@@ -21,6 +22,7 @@ export default function Home() {
      <Hero />
      <Spotlight />
      <Events />
+     <Contact />
     </>
   )
 }
