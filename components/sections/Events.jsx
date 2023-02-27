@@ -3,7 +3,7 @@ import Cardreuse from "../UI/Cardreuse";
 
 const Events = () => {
   return (
-    <div>
+    <div className="bg-gray-100">
       <div className=" mt-14 max-w-7xl mx-auto">
         <div className="flex justify-between items-center">
           <div className="p-6">
