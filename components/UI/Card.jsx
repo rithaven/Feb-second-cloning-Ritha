@@ -33,7 +33,6 @@ const Card = (props) => {
             <div>
             <img className="h-8" src="/ch-r.svg" alt="chevron" />
             </div>
-
           </div>
         </div>
       </div>

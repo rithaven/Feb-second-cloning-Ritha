@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from '../UI/card'
+import Card from '../UI/Card'
 
 const Hero = () => {
   return (
@@ -10,7 +10,6 @@ const Hero = () => {
             <div className='relative -mt-72 ml-28  w-5/6 mx-auto bg-black p-6 text-white '>
             <Card title="Aalto student – New Student Guide is here to replace Into" body="The into.aalto.fi contents have been migrated to the Aalto.fi site with information and news for students." links={["Alzheimer's disease", "Honours programme", "Education for professionals", "Study guide",]}/>
             </div>
-
            </div>
         </div>
     </div>
