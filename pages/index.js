@@ -1,7 +1,9 @@
 
 import Navbar from '@/components/layout/Navbar'
 import Contact from '@/components/sections/Contact'
+import { CtA } from '@/components/sections/CtA'
 import Events from '@/components/sections/Events'
+import Experience from '@/components/sections/Experience'
 import Hero from '@/components/sections/Hero'
 import Quicklinks from '@/components/sections/Quicklinks'
 import Schools from '@/components/sections/Schools'
@@ -27,6 +29,8 @@ export default function Home() {
      <Contact />
      <Quicklinks />
      <Schools />
+     <CtA />
+     <Experience />
     </>
   )
 }
