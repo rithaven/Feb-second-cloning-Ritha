@@ -1,13 +1,17 @@
 
 import Navbar from '@/components/layout/Navbar'
 import Contact from '@/components/sections/Contact'
+import Courses from '@/components/sections/Courses'
 import { CtA } from '@/components/sections/CtA'
 import Events from '@/components/sections/Events'
 import Experience from '@/components/sections/Experience'
 import Hero from '@/components/sections/Hero'
+import Info from '@/components/sections/Info'
+import News from '@/components/sections/News'
 import Quicklinks from '@/components/sections/Quicklinks'
 import Schools from '@/components/sections/Schools'
 import Spotlight from '@/components/sections/Spotlight '
+import Team from '@/components/sections/Team'
 import Head from 'next/head'
 import Image from 'next/image'
 
@@ -31,6 +35,10 @@ export default function Home() {
      <Schools />
      <CtA />
      <Experience />
-    </>
+     <News />
+     <Team />
+     <Courses />
+     <Info />
+    </> 
   )
 }
