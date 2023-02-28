@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-const Cardreuse = (props) => {
+const CardReuse = (props) => {
   return (
     <div className="grid space-y-4 border border-black">
       <div className="">
@@ -22,4 +22,4 @@ const Cardreuse = (props) => {
   );
 };
 
-export default Cardreuse;
+export default CardReuse;

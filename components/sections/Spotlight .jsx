@@ -1,5 +1,5 @@
 import React from "react";
-import Cardreuse from "../UI/Cardreuse";
+import Cardreuse from "../UI/CardReuse";
 
 const Spotlight = () => {
   return (

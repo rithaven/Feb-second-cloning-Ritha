@@ -4,6 +4,7 @@ import Contact from '@/components/sections/Contact'
 import Events from '@/components/sections/Events'
 import Hero from '@/components/sections/Hero'
 import Quicklinks from '@/components/sections/Quicklinks'
+import Schools from '@/components/sections/Schools'
 import Spotlight from '@/components/sections/Spotlight '
 import Head from 'next/head'
 import Image from 'next/image'
@@ -25,6 +26,7 @@ export default function Home() {
      <Events />
      <Contact />
      <Quicklinks />
+     <Schools />
     </>
   )
 }
