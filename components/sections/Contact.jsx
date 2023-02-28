@@ -12,7 +12,7 @@ const Contact = () => {
           <h3 className="p-8 font-semibold text-7xl">
             Explore Aalto University
           </h3>
-          <div className="flex w-full">
+          <div className="flex flex-col w-full lg:flex-row">
             <div className="items-center px-32 py-10 border-t border-r border-black ">
               <div className="w-40 ">
                 <Link className="text-lg font-bold underline" href="/">

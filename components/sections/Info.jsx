@@ -10,7 +10,7 @@ const Info = () => {
         </h3>
       </div>
 
-      <div className="grid grid-cols-2 gap-4">
+      <div className="grid gap-4 lg:grid-cols-2">
         {[
           {
             image: "/blue.png",
@@ -29,7 +29,7 @@ const Info = () => {
             <div key={key} className="flex gap-6 border border-black">
               <div className="pt-20 ml-6">
                 <Link href="/" className="p-4 font-semibold">{e.link}</Link>
-                <p className="p-4 truncate bg-yellow-200 w-96 text-md">{e.description}</p>
+                <p className="hidden p-4 truncate bg-yellow-200 lg:block w-96 text-md">{e.description}</p>
               </div>
               <div>
                 <img className="h-40 w-96" src={e.image} alt="" />

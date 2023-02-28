@@ -1,4 +1,5 @@
 
+import Footer from '@/components/layout/Footer'
 import Navbar from '@/components/layout/Navbar'
 import Contact from '@/components/sections/Contact'
 import Courses from '@/components/sections/Courses'
@@ -9,7 +10,9 @@ import Hero from '@/components/sections/Hero'
 import Info from '@/components/sections/Info'
 import News from '@/components/sections/News'
 import Quicklinks from '@/components/sections/Quicklinks'
+import Research from '@/components/sections/Research'
 import Schools from '@/components/sections/Schools'
+import SocialMedia from '@/components/sections/SocialMedia'
 import Spotlight from '@/components/sections/Spotlight '
 import Team from '@/components/sections/Team'
 import Head from 'next/head'
@@ -39,6 +42,9 @@ export default function Home() {
      <Team />
      <Courses />
      <Info />
+     <Research />
+     <SocialMedia />
+     <Footer />
     </> 
   )
 }
