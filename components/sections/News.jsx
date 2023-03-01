@@ -3,7 +3,7 @@ import React from 'react'
 const News = () => {
   return (
     <div className='pt-20 mx-auto max-w-7xl'>
-        <div className='grid grid-cols-4 gap-4'>
+        <div className='grid grid-cols-2 gap-4 md:grid-cols-4'>
             {
                 [
                     {

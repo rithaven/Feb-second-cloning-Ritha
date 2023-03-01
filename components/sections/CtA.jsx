@@ -3,7 +3,7 @@ import React from "react";
 export const CtA = () => {
   return (
     <div className="p-4 mx-auto max-w-7xl">
-      <div className="grid grid-cols-2 pt-10">
+      <div className="grid grid-cols-1 pt-10 lg:grid-cols-2">
         <div>
           <img
             className="object-cover w-full"

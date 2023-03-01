@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="p-6 m-auto max-w-7xl">
-      <div className="grid grid-cols-4 gap-6 p-4 border-b border-black">
+      <div className="grid grid-cols-2 gap-6 p-4 border-b border-black lg:grid-cols-4">
         <div>
         <img className="h-10 mb-8" src="log.png" alt="" />
           <h2>Aalto University</h2>
@@ -51,18 +51,18 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="flex justify-between p-6 ">
-        <div className="flex gap-4">
+      <div className="grid p-3 lg:justify-between lg:p-6 lg:flex flex-col-1">
+        <div className="gap-4 flex-col-1 lg:flex">
           <p className="font-bold underline"> Privacy notice</p>
           <p className="font-bold underline"> Cookie policy</p>
           <p className="font-bold underline"> Feedback</p>
           <p className="font-bold underline"> Accessibility statement</p>
           <p className="font-bold underline"> Cookie settings</p>
         </div>
-        <div className="flex gap-4">
-          <p className="font-bold underline">Suomeksi</p>
-          <p className="font-bold underline">Svenska</p>
-          <p className="font-bold underline">English</p>
+        <div className="flex gap-2 lg:gap-4">
+          <p className="underline lg:font-bold">Suomeksi</p>
+          <p className="underline lg:font-bold">Svenska</p>
+          <p className="underline lg:font-bold">English</p>
         </div>
       </div>
     </div>

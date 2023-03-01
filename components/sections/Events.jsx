@@ -3,14 +3,14 @@ import Eventcard from "../UI/Eventcard";
 
 const Events = () => {
   return (
-    <div className="bg-gray-100 pb-24">
-      <div className=" mt-14 max-w-7xl mx-auto">
-        <div className="flex justify-between items-center">
+    <div className="pb-24 bg-gray-100">
+      <div className="mx-auto mt-14 max-w-7xl">
+        <div className="flex items-center justify-between">
           <div className="p-6">
-            <h2 className="font-bold text-2xl text-black">Join our many events</h2>
+            <h2 className="text-2xl font-bold text-black">Join our many events</h2>
           </div>
           <div>
-            <div className="rounded-full px-6 py-4 border border-black hover:bg-yellow-300">
+            <div className="px-6 py-4 border border-black rounded-full hover:bg-yellow">
               <p>See all events</p>
             </div>
           </div>
@@ -21,7 +21,7 @@ const Events = () => {
             <span className="underline">News and events page.</span>{" "}
           </p>
         </div>
-        <div className="grid grid-cols-3 gap-4 ">
+        <div className="grid grid-cols-1 gap-4 lg:grid-cols-3">
           <Eventcard
             image="https://www.aalto.fi/sites/g/files/flghsv161/files/styles/o_914w_ah_n/public/2023-02/solvethesdgs_7.png?itok=3zTx6Lu6"
             link="Shrinking from the heat"

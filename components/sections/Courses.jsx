@@ -8,7 +8,7 @@ const Courses = () => {
         <h2 className='text-2xl font-bold'>Studies and courses open to all</h2>
 
         </div>
-       <div className='grid grid-cols-3 gap-4 pt-10 mx-auto max-w-7xl'>
+       <div className='grid grid-cols-1 gap-4 pt-10 mx-auto lg:grid-cols-3 max-w-7xl'>
         <Eventcard image="/course.jpg" link="Lifewide Learning" description="Select a solution that suits you, ranging from individual courses to programmes that are open for all."/>
         <Eventcard image="/two.jpg" link="Lifewide Learning" description="Select a solution that suits you, ranging from individual courses to programmes that are open for all."/>
         <Eventcard image="/three.png" link="Lifewide Learning" description="Select a solution that suits you, ranging from individual courses to programmes that are open for all."/>

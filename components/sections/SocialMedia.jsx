@@ -8,12 +8,12 @@ const SocialMedia = () => {
       </div>
       <div className="grid justify-center -mt-64 space-y-4">
         <h3 className="font-bold text-7xl ">Follow us</h3>
-        <div className="flex items-center gap-4 ">
-          <h2 className="text-2xl font-bold underline">facebook,</h2>
-          <h2 className="text-2xl font-bold underline">twitter,</h2>
-          <h2 className="text-2xl font-bold underline">instagram </h2>
-          <h2 className="text-2xl font-bold ">&</h2>
-          <h2 className="text-2xl font-bold underline">Linkedin</h2>
+        <div className="flex items-center gap-2 lg:gap-4 ">
+          <h2 className="text-sm font-bold underline lg:text-2xl">facebook,</h2>
+          <h2 className="text-sm font-bold underline lg:text-2xl ">twitter,</h2>
+          <h2 className="text-sm font-bold underline lg:text-2xl ">instagram </h2>
+          <h2 className="text-sm font-bold lg:text-2xl ">&</h2>
+          <h2 className="text-sm font-bold underline lg:text-2xl ">Linkedin</h2>
         </div>
       </div>
     </div>

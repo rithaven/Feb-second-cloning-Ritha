@@ -8,27 +8,27 @@ const Contact = () => {
         <div className="relative ">
           <img className="object-cover w-full " src="/back.jpg" alt="" />
         </div>
-        <div className="absolute w-5/6 m-auto -mt-24 bg-yellow ml-28">
-          <h3 className="p-8 font-semibold text-7xl">
+        <div className="absolute m-auto ml-10 -mt-24 lg:w-5/6 bg-yellow lg:ml-28 w-60">
+          <h3 className="p-8 text-4xl font-semibold lg:text-7xl">
             Explore Aalto University
           </h3>
           <div className="flex flex-col w-full lg:flex-row">
-            <div className="items-center px-32 py-10 border-t border-r border-black ">
-              <div className="w-40 ">
+            <div className="items-center px-16 py-10 border-t border-r border-black lg:px-32 ">
+              <div className="w-16 lg:w-40 ">
                 <Link className="text-lg font-bold underline" href="/">
                   Study at Aalto
                 </Link>
               </div>
             </div>
-            <div className="items-center px-32 py-10 border-t border-r border-black ">
-              <div className="w-40 ">
+            <div className="items-center px-16 py-10 border-t border-r border-black lg:px-32">
+              <div className="w-16 lg:w-40">
                 <Link className="text-lg font-bold underline" href="/">
                   Study at Aalto
                 </Link>
               </div>
             </div>
-            <div className="items-center px-32 py-10 border-t border-black">
-              <div className=" w-44">
+            <div className="items-center px-16 py-10 border-t border-black lg:px-32">
+              <div className="w-16 lg:w-44">
                 <Link className="text-lg font-bold underline" href="/">
                   Study at Aalto
                 </Link>

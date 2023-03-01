@@ -3,7 +3,7 @@ import React from "react";
 const Experience = () => {
   return (
     <div className="mx-auto max-w-7xl">
-      <div className="grid grid-cols-2 gap-2">
+      <div className="grid grid-cols-1 gap-2 lg:grid-cols-2">
         <div className="grid p-10">
           <h2 className="text-2xl font-semibold">Virtual Campus Experience</h2>
           <p>
