@@ -28,7 +28,7 @@ export default function Navbar() {
         >
          
                 <div>
-                  <img className="h-8" src="/logo.png" alt="logo" />
+                  <img className="h-8" src="/log.png" alt="logo" />
                 </div>
                 <div className="flex items-center gap-8">
                   <div className="hidden gap-2 lg:flex">
@@ -84,7 +84,7 @@ export default function Navbar() {
                     <p>Menu</p>
                   </div>
                   <div>
-                    <div className="hidden py-2 bg-black rounded-full px-b8 lg:block">
+                    <div className="hidden px-8 py-2 bg-black rounded-full lg:block">
                       <h3 className="text-white">Login</h3>
                     </div>
                   </div>
